@@ -1,0 +1,178 @@
+body {
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    background-color: rgb(234, 234, 234);
+}
+
+nav {
+    background-color: white;
+}
+
+/************ CONTAINER VISUAL SPECS ************/
+
+.container {
+    display: flex;
+    height: 100vh;
+    width: 900px;
+    margin: 20px auto;
+}
+
+/************ LEFT BAR VISUAL SPECS ************/
+
+.left-bar {
+    width: 53%;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+h1 {
+    font-size: 27px;
+    font-weight: 400;
+}
+
+li {
+    list-style-type: none; 
+    padding-bottom: 20px;
+}
+
+a {
+    font-size: 13px;
+    text-decoration: none;
+    padding-left: 20px;
+}
+
+.left-bar-content {
+    padding-left: 20px;
+    margin-top: 60%;
+}
+
+.left-p {
+    font-size: 13px;
+    font-weight: 200;
+}
+
+
+/************ RIGHT BAR VISUAL SPECS ************/
+
+.right-bar {
+    width: 35%;
+    padding-top: 30px;
+}
+
+.button {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    min-width: 300px;
+    height: 18px;
+    font-size: 13px;
+    border-radius: 5px;
+    border: 1px solid rgb(189, 189, 189);
+    margin-bottom: 10px;
+    background-color: rgb(56, 172, 255);
+}
+
+.google {
+    background-color: white;
+    color: rgb(43, 43, 43)
+}
+
+.github {
+    background-color: rgb(43, 43, 43);
+    color: white;
+}
+
+.facebook {
+    background-color: rgb(0, 123, 255);
+    color: white;
+}
+
+#survey-form{
+    background-color: white;
+    width: 300px;
+    padding:30px 10px 10px 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+p {
+    margin: 0 0 5px 20px;
+    font-weight: 500;
+}
+
+input {
+    margin: 0 0 20px 20px;
+    width: 260px;
+    height: 30px;
+    border: 1px solid rgb(188, 188, 188);
+    border-radius: 5px;
+}
+
+.frame {
+    background-color: rgb(236, 236, 236);
+    width: 260px;
+    height: 160px;
+    margin: 20px;
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 5px;
+
+}
+
+input[type="checkbox"]{
+    height: 20px;
+    margin-left: 20px;
+    padding-right: 100px;
+    width: 20px;
+    margin-top: 10px;
+    border-radius: 3px;
+    float:left;
+}
+
+.signup {
+    width: 240px;
+    margin: 20px;
+    color: white;
+}
+
+.right-p {
+    font-size: 13px;
+    font-weight: 200;
+    text-align: left;
+}
+
+.submit {
+    background-color: rgb(0, 149, 255);
+    color: white;
+    height: 40px;
+}
+
+footer {
+    display: block;
+    text-align: center;
+}
+
+.margin-bottom {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.opt-in {
+  display: flex;
+  font-size: 13px;
+  font-weight: 200;
+  margin-left: 60px;
+  margin-bottom: 20px;
+}
+
+.form {
+  margin-left: 20px;
+}
+
+.right-a {
+  padding-left: 0;
+}
+
+.login {
+  text-align: center;
+}
